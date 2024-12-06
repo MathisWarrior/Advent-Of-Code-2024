@@ -1,3 +1,12 @@
+/**
+ * Résumé du problème 1 :
+ *      Liste de suite, détecter si strictement croissant/décroissant et que chaque écart compris entre 1 et 3
+ *
+ * Résumé du problème 2 :
+ *      Une suite seras deshormais safe si en enlevant une valeur elle devient correct
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
