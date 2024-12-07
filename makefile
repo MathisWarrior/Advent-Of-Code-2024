@@ -1,7 +1,7 @@
 CC = gcc
 FLAG = -Wall -Wextra -Werror -std=c11 -pedantic
 
-all: Day-3
+all: Day-4
 
 Day-1:
 	$(CC) $(FLAG) Day-1/TasBinaireMin.c -c -o Day-1/TasBinaireMin.o
@@ -18,3 +18,8 @@ Day-3:
 	$(CC) $(FLAG) Day-3/Day-3.c -o Day-3/main
 	cd Day-3 && ./main
 	rm -f Day-3/*.o Day-3/main
+
+Day-4:
+	$(CC) $(FLAG) Day-4/Day-4.c -o Day-4/main
+	cd Day-4 && ./main
+	rm -f Day-4/*.o Day-4/main
